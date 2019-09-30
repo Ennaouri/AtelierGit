@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1569589741 source:c:\users\meryem\documents\abonn_operateur\abonne.cpp
+	<iostream>
+	<limits>
+	"abonne.h"
+
+1569602785 c:\users\meryem\documents\abonn_operateur\abonne.h
+	<iostream>
+
+1569602462 source:c:\users\meryem\documents\abonn_operateur\main.cpp
+	<iostream>
+	"abonne.h"
+	"operateur.h"
+
+1569589962 c:\users\meryem\documents\abonn_operateur\operateur.h
+	"abonne.h"
+
+1569590019 source:c:\users\meryem\documents\abonn_operateur\operateur.cpp
+	"operateur.h"
+	"abonne.h"
+
