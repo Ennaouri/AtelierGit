@@ -17,6 +17,7 @@ private:
     int numAppel;
     int cin;
     double solde;
+    bool mwallet;
 
 public:
     Abonne();
