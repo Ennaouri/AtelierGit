@@ -11,6 +11,7 @@ Abonne::Abonne() {
     this->numAppel = 0;
     this->cin = 0;
     this->solde = 0;
+    this->mwallet=false;
 }
 void Abonne::saisir(  ) {
 
@@ -24,7 +25,7 @@ void Abonne::saisir(  ) {
     std::cin >> this->prenom;
 //    getline( std::cin, this->prenom );
 
-    std::cout << "Numéro Appel : ";
+    std::cout << "NumÃ©ro Appel : ";
     std::cin >> this->numAppel;
     std::cout << "CIN : ";
     std::cin >> this->cin;
@@ -36,7 +37,7 @@ void Abonne::afficher() {
 
     std::cout << "Nom : " << this->nom << endl;
     std::cout << "Prenom : " << this->prenom << endl;
-    std::cout << "Numéro Appel : " << this->numAppel << endl;
+    std::cout << "NumÃ©ro Appel : " << this->numAppel << endl;
     std::cout << "CIN : " << this->cin << endl << endl;
     std::cout << "Solde (DT): " << this->solde << endl;
 }
@@ -52,7 +53,7 @@ bool Abonne::consommer( int secondes = 12, float prixMinute = 0.18 ) {
     if ( this->solde > cost ) {
 
         this->solde -= cost;
-        cout << "vous avez consommé " << cost << endl;
+        cout << "vous avez consommÃ© " << cost << endl;
         return true;
     }
     cout << "vous devez recharger votre compte." << endl;
