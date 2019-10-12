@@ -1,2 +1,2 @@
 # AtelierGit
-TP sur git
+TP sur git ce projet est un atlier
