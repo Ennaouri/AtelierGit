@@ -7,7 +7,7 @@ using namespace std;
 void showMenu();
 
 int main() {
-
+    uint8_t ensias; 
     int choice;
     Operateur *operateur = new Operateur();
     showMenu();
